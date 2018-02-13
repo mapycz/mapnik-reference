@@ -87,6 +87,12 @@
                 "default-value": "utf-8",
                 "default-meaning": "UTF8 will be the assumed encoding for string attribute values",
                 "required": false
+            },
+            "shared": {
+                "type": "boolean",
+                "doc": "Allows to share the GDAL dataset handle with other GDAL datasources with the same file path.",
+                "default-value": false,
+                "default-meaning": "The datasource will use unique dataset instance."
             }
         },
         "geojson": {
